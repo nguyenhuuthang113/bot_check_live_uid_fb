@@ -5,7 +5,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("7773938869:AAE4ewCX3zhFSESunz6CHo5J3xSxn7wzt1Q")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 DATA_FILE = "uids.json"
 
 # ===== LOAD DATA =====
